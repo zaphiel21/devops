@@ -1,0 +1,11 @@
+docker --version
+docker login
+docker run -id -d ubuntu
+docker pull ubuntu
+docker images
+docker tag id
+docker tag id username/ubuntu
+docker images
+docker push username/ubuntu:latest
+docker ps
+docker stop (contained_id)
