@@ -1,0 +1,27 @@
+git config --global user.name "w3schools-test"			// put your username in quotes
+git config --global user.email "test@w3schools.com"		// put your email in quotes
+
+mkdir myproject
+cd myproject
+
+git init 
+
+<Create html and css files in myproject folder>
+
+ls
+
+git status
+
+git add --all
+
+git commit -m "First release of Hello World!"
+
+git remote add origin <github repo link>				// put the github repo link
+
+git push --set-upstream origin master
+
+git fetch origin
+
+git pull origin
+
+git push origin
