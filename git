@@ -1,0 +1,19 @@
+git --version
+git config --global user.name "name"
+git config --global user.email "email"
+mkdir myproject
+cd myproject
+git init
+create Demo(filename) repository in GitHub
+mkdir Demo
+cd Demo
+echo "#Demo" >> README.md
+cat README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/<your_username>/Demo.git
+git push [--tags] [remote]
+git push -u [remote] [branch] // Set its copy as an upstream.
+git fetch [remote]
+git pull [remote]
